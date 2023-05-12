@@ -1,4 +1,7 @@
 .App {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
 }
 
@@ -35,4 +38,61 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+}
+
+.header ul {
+  padding: 0;
+}
+.header li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 10px;
+  border-style: solid;
+}
+
+.header a{
+  text-decoration:none;
+  color: #555;
+  transition: all 0.3s ease 0s;
+}
+
+.header a:hover {
+  color: #b2dfdb
+}
+
+
+.tool-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(247, 240, 230);
+}
+
+.item {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 4px 4px 8px grey;
+  padding: 1em;
+}
+
+.item img{
+  height: 75px;
+  width: 75px;
+  box-shadow: 4px 4px 8px grey;
+  border-radius: 90%;
+}
+
+#logo {
+  float: left;
+  width: 20%;
+  height: 20%;
 }
