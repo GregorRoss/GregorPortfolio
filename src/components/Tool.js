@@ -1,4 +1,5 @@
 import React from 'react';
+import './tool.css';
 
 const Tool = ({tool}) => {
 

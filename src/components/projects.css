@@ -1,0 +1,21 @@
+.projects-main {
+    margin: 2em;
+    text-align: left;
+
+}
+
+h4 {
+    margin-top: 2em;
+}
+
+
+.projects-main li{
+    margin: 1em;
+    padding: 1em;
+    list-style: none;
+    box-shadow: 4px 4px 8px #ec943a;
+}
+
+.projects-main h5{
+    text-align: left;
+}

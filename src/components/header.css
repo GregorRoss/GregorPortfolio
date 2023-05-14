@@ -1,0 +1,39 @@
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #faa41b;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+}
+.header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+    border-radius: 30%;
+    transition: all 0.4s ease 0.2s;
+}
+
+.header li:hover {
+    background-color: #090909;;
+}
+
+.header a{
+    color: #090909;
+    text-decoration:none;
+    transition: all 0.4s ease 0s;
+  }
+  
+  .header a:hover {
+    color: #faa41b;
+
+
+  }
+  
+  

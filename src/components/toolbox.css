@@ -1,0 +1,42 @@
+
+h4 {
+    margin-top: 2em;
+}
+
+
+p{
+    margin: 1em;
+    text-align: justify;
+}
+
+.tool-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+  }
+  
+  .item {
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 4px 4px 8px #ec943a;
+    padding: 0.5em;
+    font-size: x-small;
+}
+
+
+.item img{
+    height: 50px;
+    width: 50px;
+    box-shadow: 4px 4px 8px #ec943a;
+    border-radius: 90%;
+    background-color: #d29a7f;
+  }
+  
+  #logo {
+    float: left;
+    width: 20%;
+    height: 20%;
+  }
